@@ -1,6 +1,7 @@
-# Ignore all:
-*
-
-# Except:
-!.gitignore
-# The rest of previously existing files
+*.exe
+*.pdb
+*.lib
+*.vcxproj.user
+*.suo
+*.dll
+*.exp

@@ -1,0 +1,11 @@
+﻿Build started 11/23/2014 2:45:36 PM.
+     1>Project "D:\msvc2013\src\SuiteSparse\Project\CHOLMOD_demo\CHOLMOD_demo.vcxproj" on node 6 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\CHOLMOD\Demo\cholmod_demo.c
+         cholmod_demo.c
+     1>d:\msvc2013\src\suitesparse\cholmod\demo\cholmod_demo.h(12): fatal error C1083: Cannot open include file: 'cholmod.h': No such file or directory
+     1>Done Building Project "D:\msvc2013\src\SuiteSparse\Project\CHOLMOD_demo\CHOLMOD_demo.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.12

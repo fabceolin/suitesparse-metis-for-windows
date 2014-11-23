@@ -1,0 +1,34 @@
+﻿Build started 11/23/2014 3:12:05 PM.
+     1>Project "D:\msvc2013\src\SuiteSparse\Project\AMD\AMD.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt ..\..\AMD\Source\amd_1.c ..\..\AMD\Source\amd_2.c ..\..\AMD\Source\amd_aat.c ..\..\AMD\Source\amd_control.c ..\..\AMD\Source\amd_defaults.c ..\..\AMD\Source\amd_dump.c ..\..\AMD\Source\amd_info.c ..\..\AMD\Source\amd_order.c ..\..\AMD\Source\amd_post_tree.c ..\..\AMD\Source\amd_postorder.c ..\..\AMD\Source\amd_preprocess.c ..\..\AMD\Source\amd_valid.c
+         amd_valid.c
+     1>..\..\AMD\Source\amd_valid.c(36): fatal error C1083: Cannot open include file: 'amd_internal.h': No such file or directory
+         amd_preprocess.c
+     1>..\..\AMD\Source\amd_preprocess.c(19): fatal error C1083: Cannot open include file: 'amd_internal.h': No such file or directory
+         amd_postorder.c
+     1>..\..\AMD\Source\amd_postorder.c(13): fatal error C1083: Cannot open include file: 'amd_internal.h': No such file or directory
+         amd_post_tree.c
+     1>..\..\AMD\Source\amd_post_tree.c(13): fatal error C1083: Cannot open include file: 'amd_internal.h': No such file or directory
+         amd_order.c
+     1>..\..\AMD\Source\amd_order.c(15): fatal error C1083: Cannot open include file: 'amd_internal.h': No such file or directory
+         amd_info.c
+     1>..\..\AMD\Source\amd_info.c(15): fatal error C1083: Cannot open include file: 'amd_internal.h': No such file or directory
+         amd_dump.c
+     1>..\..\AMD\Source\amd_dump.c(16): fatal error C1083: Cannot open include file: 'amd_internal.h': No such file or directory
+         amd_defaults.c
+     1>..\..\AMD\Source\amd_defaults.c(15): fatal error C1083: Cannot open include file: 'amd_internal.h': No such file or directory
+         amd_control.c
+     1>..\..\AMD\Source\amd_control.c(16): fatal error C1083: Cannot open include file: 'amd_internal.h': No such file or directory
+         amd_aat.c
+     1>..\..\AMD\Source\amd_aat.c(18): fatal error C1083: Cannot open include file: 'amd_internal.h': No such file or directory
+         amd_2.c
+     1>..\..\AMD\Source\amd_2.c(16): fatal error C1083: Cannot open include file: 'amd_internal.h': No such file or directory
+         amd_1.c
+     1>..\..\AMD\Source\amd_1.c(27): fatal error C1083: Cannot open include file: 'amd_internal.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\msvc2013\src\SuiteSparse\Project\AMD\AMD.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.73

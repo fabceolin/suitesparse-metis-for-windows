@@ -1,0 +1,33 @@
+﻿Build started 11/23/2014 2:45:34 PM.
+     1>Project "D:\msvc2013\src\SuiteSparse\Project\CAMD\CAMD.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\CAMD\Source\camd_1.c ..\..\CAMD\Source\camd_2.c ..\..\CAMD\Source\camd_aat.c ..\..\CAMD\Source\camd_control.c ..\..\CAMD\Source\camd_defaults.c ..\..\CAMD\Source\camd_dump.c ..\..\CAMD\Source\camd_global.c ..\..\CAMD\Source\camd_info.c ..\..\CAMD\Source\camd_order.c ..\..\CAMD\Source\camd_postorder.c ..\..\CAMD\Source\camd_preprocess.c ..\..\CAMD\Source\camd_valid.c
+         camd_valid.c
+     1>d:\msvc2013\src\suitesparse\camd\source\camd_valid.c(32): fatal error C1083: Cannot open include file: 'camd_internal.h': No such file or directory
+         camd_preprocess.c
+     1>d:\msvc2013\src\suitesparse\camd\source\camd_preprocess.c(19): fatal error C1083: Cannot open include file: 'camd_internal.h': No such file or directory
+         camd_postorder.c
+     1>d:\msvc2013\src\suitesparse\camd\source\camd_postorder.c(13): fatal error C1083: Cannot open include file: 'camd_internal.h': No such file or directory
+         camd_order.c
+     1>d:\msvc2013\src\suitesparse\camd\source\camd_order.c(15): fatal error C1083: Cannot open include file: 'camd_internal.h': No such file or directory
+         camd_info.c
+     1>d:\msvc2013\src\suitesparse\camd\source\camd_info.c(15): fatal error C1083: Cannot open include file: 'camd_internal.h': No such file or directory
+         camd_global.c
+         camd_dump.c
+     1>d:\msvc2013\src\suitesparse\camd\source\camd_dump.c(16): fatal error C1083: Cannot open include file: 'camd_internal.h': No such file or directory
+         camd_defaults.c
+     1>d:\msvc2013\src\suitesparse\camd\source\camd_defaults.c(15): fatal error C1083: Cannot open include file: 'camd_internal.h': No such file or directory
+         camd_control.c
+     1>d:\msvc2013\src\suitesparse\camd\source\camd_control.c(16): fatal error C1083: Cannot open include file: 'camd_internal.h': No such file or directory
+         camd_aat.c
+     1>d:\msvc2013\src\suitesparse\camd\source\camd_aat.c(18): fatal error C1083: Cannot open include file: 'camd_internal.h': No such file or directory
+         camd_2.c
+     1>d:\msvc2013\src\suitesparse\camd\source\camd_2.c(26): fatal error C1083: Cannot open include file: 'camd_internal.h': No such file or directory
+         camd_1.c
+     1>d:\msvc2013\src\suitesparse\camd\source\camd_1.c(27): fatal error C1083: Cannot open include file: 'camd_internal.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\msvc2013\src\SuiteSparse\Project\CAMD\CAMD.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.51

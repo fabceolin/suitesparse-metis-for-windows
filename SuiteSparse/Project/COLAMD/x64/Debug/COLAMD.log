@@ -1,0 +1,18 @@
+﻿Build started 11/23/2014 2:55:13 PM.
+     1>Project "D:\msvc2013\src\SuiteSparse\Project\COLAMD\COLAMD.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt ..\..\COLAMD\Source\colamd.c ..\..\COLAMD\Source\colamd_global.c
+         colamd_global.c
+         colamd.c
+     1>..\..\COLAMD\Source\colamd.c(1583): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\COLAMD\Source\colamd.c(1589): warning C4267: '-=' : conversion from 'size_t' to 'int', possible loss of data
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\msvc2013\src\SuiteSparse\Project\x64\Debug\COLAMD.lib" /NOLOGO /MACHINE:X64 x64\Debug\colamd.obj
+         x64\Debug\colamd_global.obj
+         COLAMD.vcxproj -> D:\msvc2013\src\SuiteSparse\Project\x64\Debug\COLAMD.lib
+     1>Done Building Project "D:\msvc2013\src\SuiteSparse\Project\COLAMD\COLAMD.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.24

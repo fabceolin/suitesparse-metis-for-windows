@@ -1,0 +1,13 @@
+﻿Build started 11/23/2014 2:45:34 PM.
+     1>Project "D:\msvc2013\src\SuiteSparse\Project\SuiteSparse_config\SuiteSparse_config.vcxproj" on node 6 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\SuiteSparse_config\SuiteSparse_config.c
+         SuiteSparse_config.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\msvc2013\src\SuiteSparse\Project\Debug\SuiteSparse_config.lib" /NOLOGO Debug\SuiteSparse_config.obj
+         SuiteSparse_config.vcxproj -> D:\msvc2013\src\SuiteSparse\Project\Debug\SuiteSparse_config.lib
+     1>Done Building Project "D:\msvc2013\src\SuiteSparse\Project\SuiteSparse_config\SuiteSparse_config.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.31

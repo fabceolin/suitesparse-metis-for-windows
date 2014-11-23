@@ -1,0 +1,112 @@
+﻿Build started 11/23/2014 2:45:35 PM.
+     1>Project "D:\msvc2013\src\SuiteSparse\Project\CHOLMOD_shared\CHOLMOD_shared.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CHOLMOD_SHARED_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\CHOLMOD\Check\cholmod_check.c ..\..\CHOLMOD\Check\cholmod_read.c ..\..\CHOLMOD\Check\cholmod_write.c ..\..\CHOLMOD\Cholesky\cholmod_amd.c ..\..\CHOLMOD\Cholesky\cholmod_analyze.c ..\..\CHOLMOD\Cholesky\cholmod_colamd.c ..\..\CHOLMOD\Cholesky\cholmod_etree.c ..\..\CHOLMOD\Cholesky\cholmod_factorize.c ..\..\CHOLMOD\Cholesky\cholmod_postorder.c ..\..\CHOLMOD\Cholesky\cholmod_rcond.c ..\..\CHOLMOD\Cholesky\cholmod_resymbol.c ..\..\CHOLMOD\Cholesky\cholmod_rowcolcounts.c ..\..\CHOLMOD\Cholesky\cholmod_rowfac.c ..\..\CHOLMOD\Cholesky\cholmod_solve.c ..\..\CHOLMOD\Cholesky\cholmod_spsolve.c ..\..\CHOLMOD\Core\cholmod_aat.c ..\..\CHOLMOD\Core\cholmod_add.c ..\..\CHOLMOD\Core\cholmod_band.c ..\..\CHOLMOD\Core\cholmod_change_factor.c ..\..\CHOLMOD\Core\cholmod_common.c ..\..\CHOLMOD\Core\cholmod_complex.c ..\..\CHOLMOD\Core\cholmod_copy.c ..\..\CHOLMOD\Core\cholmod_dense.c ..\..\CHOLMOD\Core\cholmod_error.c ..\..\CHOLMOD\Core\cholmod_factor.c ..\..\CHOLMOD\Core\cholmod_memory.c ..\..\CHOLMOD\Core\cholmod_sparse.c ..\..\CHOLMOD\Core\cholmod_transpose.c ..\..\CHOLMOD\Core\cholmod_triplet.c ..\..\CHOLMOD\MatrixOps\cholmod_drop.c ..\..\CHOLMOD\MatrixOps\cholmod_horzcat.c ..\..\CHOLMOD\MatrixOps\cholmod_norm.c ..\..\CHOLMOD\MatrixOps\cholmod_scale.c ..\..\CHOLMOD\MatrixOps\cholmod_sdmult.c ..\..\CHOLMOD\MatrixOps\cholmod_ssmult.c ..\..\CHOLMOD\MatrixOps\cholmod_submatrix.c ..\..\CHOLMOD\MatrixOps\cholmod_symmetry.c ..\..\CHOLMOD\MatrixOps\cholmod_vertcat.c ..\..\CHOLMOD\Modify\cholmod_rowadd.c ..\..\CHOLMOD\Modify\cholmod_rowdel.c ..\..\CHOLMOD\Modify\cholmod_updown.c ..\..\CHOLMOD\Partition\cholmod_camd.c ..\..\CHOLMOD\Partition\cholmod_ccolamd.c ..\..\CHOLMOD\Partition\cholmod_csymamd.c ..\..\CHOLMOD\Partition\cholmod_metis.c ..\..\CHOLMOD\Partition\cholmod_nesdis.c ..\..\CHOLMOD\Supernodal\cholmod_super_numeric.c ..\..\CHOLMOD\Supernodal\cholmod_super_solve.c ..\..\CHOLMOD\Supernodal\cholmod_super_symbolic.c
+         cholmod_super_symbolic.c
+     1>d:\msvc2013\src\suitesparse\cholmod\supernodal\cholmod_super_symbolic.c(45): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_super_solve.c
+     1>d:\msvc2013\src\suitesparse\cholmod\supernodal\cholmod_super_solve.c(20): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_super_numeric.c
+     1>d:\msvc2013\src\suitesparse\cholmod\supernodal\cholmod_super_numeric.c(61): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_nesdis.c
+     1>d:\msvc2013\src\suitesparse\cholmod\partition\cholmod_nesdis.c(43): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_metis.c
+     1>d:\msvc2013\src\suitesparse\cholmod\partition\cholmod_metis.c(48): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_csymamd.c
+     1>d:\msvc2013\src\suitesparse\cholmod\partition\cholmod_csymamd.c(26): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_ccolamd.c
+     1>d:\msvc2013\src\suitesparse\cholmod\partition\cholmod_ccolamd.c(27): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_camd.c
+     1>d:\msvc2013\src\suitesparse\cholmod\partition\cholmod_camd.c(37): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_updown.c
+     1>d:\msvc2013\src\suitesparse\cholmod\modify\cholmod_updown.c(66): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_rowdel.c
+     1>d:\msvc2013\src\suitesparse\cholmod\modify\cholmod_rowdel.c(26): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_rowadd.c
+     1>d:\msvc2013\src\suitesparse\cholmod\modify\cholmod_rowadd.c(25): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_vertcat.c
+     1>d:\msvc2013\src\suitesparse\cholmod\matrixops\cholmod_vertcat.c(28): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_symmetry.c
+     1>d:\msvc2013\src\suitesparse\cholmod\matrixops\cholmod_symmetry.c(92): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_submatrix.c
+     1>d:\msvc2013\src\suitesparse\cholmod\matrixops\cholmod_submatrix.c(43): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_ssmult.c
+     1>d:\msvc2013\src\suitesparse\cholmod\matrixops\cholmod_ssmult.c(39): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_sdmult.c
+     1>d:\msvc2013\src\suitesparse\cholmod\matrixops\cholmod_sdmult.c(37): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_scale.c
+     1>d:\msvc2013\src\suitesparse\cholmod\matrixops\cholmod_scale.c(56): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_norm.c
+     1>d:\msvc2013\src\suitesparse\cholmod\matrixops\cholmod_norm.c(22): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_horzcat.c
+     1>d:\msvc2013\src\suitesparse\cholmod\matrixops\cholmod_horzcat.c(28): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_drop.c
+     1>d:\msvc2013\src\suitesparse\cholmod\matrixops\cholmod_drop.c(24): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         Generating Code...
+         Compiling...
+         cholmod_triplet.c
+     1>d:\msvc2013\src\suitesparse\cholmod\core\cholmod_triplet.c(99): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_transpose.c
+     1>d:\msvc2013\src\suitesparse\cholmod\core\cholmod_transpose.c(115): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_sparse.c
+     1>d:\msvc2013\src\suitesparse\cholmod\core\cholmod_sparse.c(38): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_memory.c
+     1>d:\msvc2013\src\suitesparse\cholmod\core\cholmod_memory.c(50): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_factor.c
+     1>d:\msvc2013\src\suitesparse\cholmod\core\cholmod_factor.c(48): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_error.c
+     1>d:\msvc2013\src\suitesparse\cholmod\core\cholmod_error.c(15): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_dense.c
+     1>d:\msvc2013\src\suitesparse\cholmod\core\cholmod_dense.c(40): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_copy.c
+     1>d:\msvc2013\src\suitesparse\cholmod\core\cholmod_copy.c(51): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_complex.c
+     1>d:\msvc2013\src\suitesparse\cholmod\core\cholmod_complex.c(20): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_common.c
+     1>d:\msvc2013\src\suitesparse\cholmod\core\cholmod_common.c(36): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_change_factor.c
+     1>d:\msvc2013\src\suitesparse\cholmod\core\cholmod_change_factor.c(106): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_band.c
+     1>d:\msvc2013\src\suitesparse\cholmod\core\cholmod_band.c(46): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_add.c
+     1>d:\msvc2013\src\suitesparse\cholmod\core\cholmod_add.c(29): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_aat.c
+     1>d:\msvc2013\src\suitesparse\cholmod\core\cholmod_aat.c(35): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_spsolve.c
+     1>d:\msvc2013\src\suitesparse\cholmod\cholesky\cholmod_spsolve.c(31): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_solve.c
+     1>d:\msvc2013\src\suitesparse\cholmod\cholesky\cholmod_solve.c(52): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_rowfac.c
+     1>d:\msvc2013\src\suitesparse\cholmod\cholesky\cholmod_rowfac.c(105): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_rowcolcounts.c
+     1>d:\msvc2013\src\suitesparse\cholmod\cholesky\cholmod_rowcolcounts.c(53): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_resymbol.c
+     1>d:\msvc2013\src\suitesparse\cholmod\cholesky\cholmod_resymbol.c(30): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_rcond.c
+     1>d:\msvc2013\src\suitesparse\cholmod\cholesky\cholmod_rcond.c(26): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         Generating Code...
+         Compiling...
+         cholmod_postorder.c
+     1>d:\msvc2013\src\suitesparse\cholmod\cholesky\cholmod_postorder.c(16): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_factorize.c
+     1>d:\msvc2013\src\suitesparse\cholmod\cholesky\cholmod_factorize.c(60): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_etree.c
+     1>d:\msvc2013\src\suitesparse\cholmod\cholesky\cholmod_etree.c(38): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_colamd.c
+     1>d:\msvc2013\src\suitesparse\cholmod\cholesky\cholmod_colamd.c(30): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_analyze.c
+     1>d:\msvc2013\src\suitesparse\cholmod\cholesky\cholmod_analyze.c(114): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_amd.c
+     1>d:\msvc2013\src\suitesparse\cholmod\cholesky\cholmod_amd.c(35): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_write.c
+     1>d:\msvc2013\src\suitesparse\cholmod\check\cholmod_write.c(25): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_read.c
+     1>d:\msvc2013\src\suitesparse\cholmod\check\cholmod_read.c(150): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         cholmod_check.c
+     1>d:\msvc2013\src\suitesparse\cholmod\check\cholmod_check.c(67): fatal error C1083: Cannot open include file: 'cholmod_internal.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\msvc2013\src\SuiteSparse\Project\CHOLMOD_shared\CHOLMOD_shared.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.14
